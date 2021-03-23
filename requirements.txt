@@ -1,8 +1,11 @@
 opencv-python
 numpy
 PyQt5
-Path
+path
 DateTime
 qimage2ndarray
 setuptools
-pytest
+scipy
+psutil
+GPUtil
+ray
