@@ -24,7 +24,7 @@ class Utilities:
     # Return memory usage of python in MB
     def python_memory_usage(self):
         process = psutil.Process(os.getpid())
-        mem = process.memory_info()[0] / float(2 ** 20)
+        mem = process.memory_info()[0] / float(2**20)
         return mem
 
     # Convert numpy array image to QPixmap
